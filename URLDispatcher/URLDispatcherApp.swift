@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import AppKit
 
 @main
 struct URLDispatcherApp: App {
+    // Hook in our AppDelegate to handle URL events
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            Text("URL Dispatcher is running in the menu bar.")
+                .padding()
         }
     }
 }

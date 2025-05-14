@@ -27,6 +27,7 @@
 		B56A8EEA2DD4165500EA8810 /* URLDispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLDispatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56A8EF82DD4165500EA8810 /* URLDispatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLDispatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56A8F022DD4165500EA8810 /* URLDispatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLDispatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56A8F1D2DD42E8B00EA8810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		B56A8EE12DD4165500EA8810 = {
 			isa = PBXGroup;
 			children = (
+				B56A8F1D2DD42E8B00EA8810 /* Info.plist */,
 				B56A8EEC2DD4165500EA8810 /* URLDispatcher */,
 				B56A8EFB2DD4165500EA8810 /* URLDispatcherTests */,
 				B56A8F052DD4165500EA8810 /* URLDispatcherUITests */,
@@ -402,6 +404,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,6 +432,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
